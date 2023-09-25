@@ -9,11 +9,13 @@ function Header() {
       <div className="logo-container">
         <img src={tastebuddies} alt="Logo" className="logo" />
       </div>
-      <ul className="nav-list">
-        <li className="nav-item">Home</li>
-        <li className="nav-item">Restaurants</li>
-        <li className="nav-item">Reviews</li>
-        <li className="nav-item">Sign In</li>
+      <ul className="nav-links">
+      <li className=''><a href="/">Home</a></li>
+        <li className=''><a href="/restaurants">Restaurants</a></li>
+        <li className=''><a href="/reviews">Reviews</a></li>
+        <li className=''><a href="/about">About Us</a></li>
+        <li className=''><a href="/reviews">Sign Up</a></li>
+        <li className=''><a href="/about">Log In</a></li>
       </ul>
     </nav>
     </div>
